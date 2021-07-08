@@ -1,0 +1,142 @@
+html{
+	background: #F4F5FA;
+}
+body{
+font:18px 'Gilroy', sans-serif;
+}
+
+::-webkit-input-placeholder{
+	color: #D0D3E2;
+}
+
+h3{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 134.9%;
+	color: #1C154E;
+	margin-block-start: 0em;
+}
+
+h4{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #494471;
+}
+
+button {
+  outline: none;
+  height: 45px;
+  text-align: center;
+  width: 370px;
+  border-radius: 15px;
+  background: #23C967;
+  border: 0px solid #23C967;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+button:hover {
+  color: white;
+  background: #23C967;
+}
+button:active {
+  letter-spacing: 2px;
+}
+
+.main_form{
+	position: relative;
+	left: 1000px;
+	top: 200px;
+	text-align: center;
+	height: 535px;
+	width: 440px;
+	background: white;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	box-shadow: 0 20px 35px #D0D3E2;
+}
+
+.main_form a{
+	color: #AFB4CC;
+	font-size: 13px;
+}
+
+.main_text{
+	margin: 35px;
+	width: 370px;
+	height: 369px;
+	color: #1C154E;
+	text-align: left;
+	display: inline-flex;
+    justify-content: left;
+    flex-direction: column;
+
+}
+
+
+.main_text input{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	border-width:0px;
+	border:none;
+	border-bottom: 1px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-bottom: 	14px;
+	text-align: left;
+}
+
+.main_text label{
+	font-size: 16px;
+
+}
+
+.main_text p{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+}
+.main_text a{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	color: #23C967;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.main_footer{
+	width: 370px;
+	height: 76px;
+	margin-left: 35px;
+	margin-top: 0px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+.main_footer a{
+	text-decoration: none;
+}
+
+.add_form{
+	display: none;
+}
+
+.suc_form{
+	display: none;
+}
+
+.fail_form{
+	display: none;
+}
